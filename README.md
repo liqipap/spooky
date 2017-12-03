@@ -21,6 +21,7 @@ Here's a quick list of what to try implementing next.
 
 ##### Features
 
+1. ✔ SVDs on counts;
 1. hashing vectorizer;
 1. ✔ stemming and/or lemmatization in existing pipelines:
     - NLTK PorterStemmer,
