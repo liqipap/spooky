@@ -13,7 +13,8 @@ Here's a quick list of what to try implementing next.
     - linear models (SGD),
     - tree-based models (RF, ETC, GBM, LGBM, CB),
     - Bayes models,
-    - KNN;
+    - KNN,
+    - SVM;
 1. add more 2nd level models;
 1. add 3rd level model;
 1. ensembling - bagging, voting etc.
@@ -21,9 +22,11 @@ Here's a quick list of what to try implementing next.
 ##### Features
 
 1. hashing vectorizer;
-1. stemming and/or lemmatization in existing pipelines;
+1. ✔ stemming and/or lemmatization in existing pipelines:
+    - NLTK PorterStemmer,
+    - NLTK WordNetLemmatizer;
 1. word2vec-based features;
-1. topic modelling.
+1. topic modeling.
 
 ##### More complicated models
 
@@ -33,4 +36,8 @@ Here's a quick list of what to try implementing next.
 
 ##### Anything else?
 
-1. tune parameters of models.
+1. tune parameters of models:
+    - vectorizers - ngram ranges, min_df,
+    - SVD - components, algorithm,
+    - LR - maximum iterations, regularization,
+    - XGBoost - number of trees, regularization, sampling.
